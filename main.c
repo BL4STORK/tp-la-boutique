@@ -6,7 +6,7 @@ int main() {
     int cakeprice = 30 ;
     int selectedprice ;
     char product ;
-    printf("quel produit souhaitez-vous acheter\n" "si vous voulez une pomme utilisez p, si vous voulez un soda utilisez s, si vous voulez un gateau utilisez g");
+    printf("quel produit souhaitez-vous acheter\n" "si vous voulez une pomme utilisez p, si vous voulez un soda utilisez s, si vous voulez un gateau utilisez g\n");
     scanf("%c", &product);
     printf("\n") ;
     if(product == 'p') {
